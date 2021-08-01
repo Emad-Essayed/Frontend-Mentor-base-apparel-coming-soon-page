@@ -125,6 +125,10 @@ img {
   outline: none;
 }
 
+.form .input-text input[type="text"]::placeholder {
+  color: var(--Desaturated-Red);
+}
+
 .form .input-text input[type="text"] + img {
   position: absolute;
   top: 50%;
